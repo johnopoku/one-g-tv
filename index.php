@@ -1,6 +1,5 @@
 <?php
-
 // PHP INFO IS DISPLAYED HERE
+// TESTING AUTO SYNC #1
 phpinfo();
-
 ?>
