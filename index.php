@@ -1,6 +1,6 @@
 <?php
 
-// PHP INFO SUCKS
+// PHP INFO IS DISPLAYED HERE
 phpinfo();
 
 ?>
