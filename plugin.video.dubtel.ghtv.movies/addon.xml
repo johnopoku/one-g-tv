@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+        <addon id="plugin.video.dubtel.ghtv.movies" name="Dubtel GHTV Movies" version="1.0.0" provider-name="DUBTEL">
+           <requires>
+               <import addon="xbmc.python" version="2.1.0"/>
+           </requires>
+           <extension point="xbmc.python.pluginsource" library="movies.py">
+               <provides>video</provides>
+           </extension>
+           <extension point="xbmc.addon.metadata">
+                <summary lang="en">Movie plugin maintained by Dubtel for Ghanaian Movies extracted from Youtube</summary>
+                <description lang="en">Movie plugin maintained by Dubtel for Ghanaian Movies extracted from Youtube</description>
+                <language></language>
+                <disclaimer lang="en">Use it at own risk</disclaimer>
+                <platform>all</platform>
+                <email></email>
+                <website>www.dubtel.com</website>
+                <license></license>
+                <forum></forum>
+                <source></source>
+            </extension>
+        </addon>
