@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+        <addon id="plugin.video.dubtel.ghtv.sport" name="Dubtel GHTV Sports" version="1.0.0" provider-name="DUBTEL">
+           <requires>
+               <import addon="xbmc.python" version="2.1.0"/>
+           </requires>
+           <extension point="xbmc.python.pluginsource" library="sports.py">
+               <provides>video</provides>
+           </extension>
+           <extension point="xbmc.addon.metadata">
+                <summary lang="en">Sports plugin maintained by Dubtel for highlights of various sports extracted from Youtube</summary>
+                <description lang="en">Sports plugin maintained by Dubtel highlights of various sports extracted from Youtube</description>
+                <language></language>
+                <disclaimer lang="en">Use it at own risk</disclaimer>
+                <platform>all</platform>
+                <email></email>
+                <website>www.dubtel.com</website>
+                <license></license>
+                <forum></forum>
+                <source></source>
+            </extension>
+        </addon>
