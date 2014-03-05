@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+        <addon id="plugin.video.wellvibe.training.resource" name="WellVibe Training" version="0.0.1" provider-name="Dubtel.com">
+           <requires>
+               <import addon="xbmc.python" version="2.1.0"/>
+           </requires>
+           <extension point="xbmc.python.pluginsource" library="training.py">
+               <provides>video</provides>
+           </extension>
+           <extension point="xbmc.addon.metadata">
+               <summary lang="en">Employee Training video plugin maintained by Dubtel for wellvibe</summary>
+                <description lang="en">Employee Training video plugin maintained by Dubtel for wellvibe</description>
+                <language></language>
+                <disclaimer lang="en">Use it at own risk</disclaimer>
+                <platform>all</platform>
+                <email></email>
+                <website>www.wellvibe.com</website>
+                <license></license>
+                <forum></forum>
+                <source></source>
+           </extension>
+        </addon>
